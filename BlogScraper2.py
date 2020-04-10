@@ -45,7 +45,7 @@ for post_info in post_infos:
             post_locations[location] = 1
     else:
         location1 = post_info[index1+1:index3]
-        location2 = post_info[index3+1:len(post_info)-1]
+        location2 = post_info[index3+1:index2]
         if location1 in post_locations: 
             post_locations[location1] = post_locations[location1] + 1
         else:
