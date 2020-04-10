@@ -36,7 +36,7 @@ for post_info in post_infos:
             else:
                 index2= index
         if(letter == '&'):
-            index3 == index
+            index3 = index
     if(index3 == 0):
         location = post_info[index1+1:index2]
         if location in post_locations:
